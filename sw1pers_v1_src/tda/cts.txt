@@ -1,0 +1,79 @@
+###-------------------------------------------------
+### Input parameter settings file for 
+###
+###       COMPutational
+###        TOPOlogy tool
+###
+### CompTopo is licensed from Duke University.
+### Copyright (c) 2012-13 by John Harer.
+### All rights reserved.
+###
+### Settings file consistent with version 0.0.5
+###-------------------------------------------------
+
+###-------------------------------------------------
+### Project information
+###-------------------------------------------------
+
+project =             computational topology sandbox
+user =                                          test
+dataset =             	   one of the test data sets
+notes =          
+
+
+### settingsfile=data/comptopo.settings.txt 
+
+###-------------------------------------------------
+### Mode(s) selection
+###-------------------------------------------------
+
+applicationMode =                                api
+usePythonInWindows =                          #  yes
+
+###-------------------------------------------------
+### Task and Algorithm selection
+###-------------------------------------------------
+
+algorithmChoice =                                M12  
+postProcessingChoice =         #   persistenceDiagram
+
+###-------------------------------------------------
+### Algorithm component specifications
+###-------------------------------------------------
+
+#supplyDataAs =                 pointCloud  #       distanceMatrix
+
+# for creating set of edges from raw data:
+#distanceBoundOnEdges =			          10
+#pointCloudFile =                  distMat_4pts_B.txt  
+
+# optional:
+#convertDataToSparseMatrixFormat =                yes
+#sparseMatrixOutputFile =       sparseMatrix_@TS@.txt
+
+###-------------------------------------------------
+### Metric selection
+###-------------------------------------------------
+
+metricChoice =                                    L2
+p_valueForLpMetric =                               2
+
+
+###-------------------------------------------------
+### Diagram related output
+###-------------------------------------------------
+
+#pythonPlotCommandsFile = 
+0DintervalsFile =               0Dintervals.@TS@.txt
+1DintervalsFile =               1Dintervals.@TS@.txt
+1DdiagramFile =                       1Dpic.@TS@.png
+
+
+###-------------------------------------------------
+### Input and output locations
+###-------------------------------------------------
+
+inputDirectory =                          data/input
+outputDirectory =                        data/output
+reportFile =          results_locSphDistMat.@TS@.txt
+

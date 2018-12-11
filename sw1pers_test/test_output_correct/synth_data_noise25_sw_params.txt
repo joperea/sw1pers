@@ -1,0 +1,13 @@
+data_file_path:	../sw1pers_test/test_input/synth_data_noise25.txt
+num_cycles:	2.000000
+feature_type:	3
+num_points:	200
+allow_trending:	1
+use_meanshift:	1
+meanshift_epsilon:	0.019215
+use_expaverage:	0
+expaverage_alpha:	NaN
+use_movingaverage:	1
+movingaverage_window:	10
+use_smoothspline:	0
+smoothspline_sigma:	NaN
